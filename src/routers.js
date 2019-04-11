@@ -17,7 +17,7 @@ const rootRouter = [
 	},
 	{
 		path: '/admin',
-		exact: true,
+		// exact: true,
 		component: Loadable({
 			loader: () => import('./view/Layouts'),
 			loading: () => (''),
